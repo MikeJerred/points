@@ -2,9 +2,13 @@
 
 ## Installation
 
+Install dependencies:
+
 ```bash
 npm install
 ```
+
+Fill out the environment variables in `points-api-server` according to `.env.example`.
 
 ## Usage
 
@@ -19,7 +23,7 @@ Start the frontend:
 
 ```bash
 cd points-demo
-npm start
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
